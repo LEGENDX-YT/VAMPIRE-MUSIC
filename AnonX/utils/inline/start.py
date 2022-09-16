@@ -10,24 +10,24 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥺 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩ 🥺",
+                text="★彡[ADD ME TO YOUƦ GƦOUᴩ]彡★",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="ʜᴇʟᴩ",
+                text="★彡[ʜᴇʟᴘ]彡★",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
+                text="★彡[ꜱᴇᴛᴛɪɴɢꜱ]彡★", callback_data="settings_helper"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="ᴍᴀɪɴᴛᴀɪɴᴇʀ", user_id=OWNER),
+                text="★彡[ᴏᴡɴᴇʀ]彡★", user_id=OWNER),
             InlineKeyboardButton(
-                text="sᴜᴩᴩᴏʀᴛ", url=f"{config.SUPPORT_GROUP}"
+                text="★彡[ꜱᴜᴘᴘᴏʀᴛ]彡★", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
      ]
@@ -38,24 +38,24 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥺 ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ 🥺",
+                text="★彡[ADD ME TO YOUƦ GƦOUᴩ]彡★",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="ʜᴇʟᴩ", callback_data="settings_back_helper"
+                text="★彡[ʜᴇʟᴘ]彡★", callback_data="settings_back_helper"
             ),
         ],
         [
             InlineKeyboardButton(text="ᴍᴀɪɴᴛᴀɪɴᴇʀ", user_id=OWNER),
             InlineKeyboardButton(
-                text="sᴜᴩᴩᴏʀᴛ", url=f"{config.SUPPORT_GROUP}"
+                text="★彡[ꜱᴜᴘᴘᴏʀᴛ]彡★", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"{config.UPSTREAM_REPO}"
+                    text="꧁𓊈𒆜🆂ᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʙᴜʏ𒆜𓊉꧂", url=f"https://t.me/ULTRONBOY_XD"
                 )
         ],
      ]
