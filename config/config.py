@@ -22,7 +22,7 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-606447369"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001550467107"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᷢ𓆩 ≛⎯⳰͢⃝🥀𝐅𝐀𝐃𝐃𝐄𝐁𝐀𝐙🕊️⃝ダ ᴍᴜsɪᴄ​")
 
