@@ -10,8 +10,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "9379653"))
 API_HASH = getenv("API_HASH", "8aea90e434d0af0946ba39c199b73d02")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5688197948:AAGV5w-iI6TRefh0Px1IpuJQEEPwGtHsNc8")
-
+BOT_TOKEN = getenv("BOT_TOKEN", "5611293329:AAFGYlX3fX2nOEXLQXtDdZeVg43sQehClL4")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Devarora0987:#Dev12345@cluster0.razivtc.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
@@ -24,7 +23,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001550467107"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᷢ𓆩 ≛⎯⳰͢⃝🥀𝐅𝐀𝐃𝐃𝐄𝐁𝐀𝐙🕊️⃝ダ ᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᷢ𓆩 ≛⎯⳰͢⃝🥀⎝⎝✧ＫＩＮＧ✧⎠⎠🕊️⃝ダ ᴍᴜsɪᴄ​")
 
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "5453019925").split())
